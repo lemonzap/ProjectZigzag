@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 580198439}
   - component: {fileID: 580198438}
   m_Layer: 0
-  m_Name: Orange_Rect64x128
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
