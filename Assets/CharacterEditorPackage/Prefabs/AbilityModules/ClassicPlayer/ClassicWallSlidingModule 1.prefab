@@ -49,6 +49,6 @@ MonoBehaviour:
   m_SlideGravity: 32
   m_ApplyFrictionIfGoingUpwards: 0
   m_EscapeCornerRaycastDistance: 0
-  m_EscapeVelocity: 3
+  m_EscapeVelocity: 1000
   m_HonorJumpCut: 1
   m_UseSameGravityForAllSlopes: 0

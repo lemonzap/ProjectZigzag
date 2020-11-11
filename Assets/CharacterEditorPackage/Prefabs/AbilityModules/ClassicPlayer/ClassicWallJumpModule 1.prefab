@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Priority: 4
   m_ModuleName: WallJump
   m_JumpVelocity: 34
-  m_JumpAlignedToWallFactor: 0.36555555
+  m_JumpAlignedToWallFactor: 1
   m_UseWallUpDirection: 0
   m_ResetVerticalSpeedIfFalling: 1
   m_VerticalVelocityInheritanceFactor: 0
