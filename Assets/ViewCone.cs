@@ -45,7 +45,7 @@ public class ViewCone : MonoBehaviour
             else
             {
                 //hit object
-                vertex = raycastHit2D.point;
+                vertex = new Vector3(raycastHit2D.point.x, raycastHit2D.point.y, transform.position.z);
             }
             vertices[vertexIndex] = transform.InverseTransformPoint(vertex);
             polygonPoints[vertexIndex] = vertices[vertexIndex];
