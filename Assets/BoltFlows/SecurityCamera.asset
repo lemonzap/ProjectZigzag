@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SecurityCamera
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"fov","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"raycount","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"angle","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"angleIncrease","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"viewDistance","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"SecurityCamera","summary":null,"pan":{"x":-59.05938,"y":548.7723},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-262.0,"y":-155.0},"guid":"21f4b13d-1c73-42c5-a7eb-0041ebe72410","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-480.0,"y":25.0},"guid":"2b8d62f8-3464-424e-a693-0a4af482c681","$version":"A","$type":"Bolt.OnTriggerEnter2D","$id":"16"},{"chainable":false,"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":-96.0,"y":59.0},"guid":"f0e335d2-92a2-4166-8c83-b92325f204a7","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"chainable":false,"member":{"name":"material","parameterTypes":null,"targetType":"UnityEngine.MeshRenderer","targetTypeName":"UnityEngine.MeshRenderer","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":104.0,"y":64.0},"guid":"faaa74ca-73dd-4dc1-b16b-78c535b5ee6f","$version":"A","$type":"Bolt.SetMember","$id":"21"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-474.0,"y":303.0},"guid":"b3e674bc-14ea-40fd-88e3-d55609520bc6","$version":"A","$type":"Bolt.OnTriggerExit2D","$id":"24"},{"chainable":false,"member":{"name":"material","parameterTypes":null,"targetType":"UnityEngine.MeshRenderer","targetTypeName":"UnityEngine.MeshRenderer","$version":"A"},"defaultValues":{"target":null,"input":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":101.0,"y":220.0},"guid":"ad78be8d-e958-42e7-b3b1-6ca390d594cd","$version":"A","$type":"Bolt.SetMember","$id":"26"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"31a717b7-10c0-44ca-84e3-ee6550e712b7","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"21"},"destinationKey":"assign","guid":"07a038c8-69f2-40b5-b9cd-b4577ece66f0","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"trigger","destinationUnit":{"$ref":"26"},"destinationKey":"assign","guid":"11277f27-70e1-46f5-aabd-d9dd48d49428","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: 49e3187738dd04647a510a648cf0c693, type: 2}
+    - {fileID: 2100000, guid: 3041aaab42468c248abe7bbb145db83f, type: 2}
